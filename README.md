@@ -2,6 +2,12 @@
 powershell commands and script
 
 
+download a file:
+
+```
+ wget https://github.com/PowerShell/PowerShell/releases/download/v7.1.4/PowerShell-7.1.4-win-x64.msi -outfile C:\Users\Administrator\Downloads\PowerShell-7.1.4-win-x64.msi
+```
+
 
 ## powershell remoting
 
