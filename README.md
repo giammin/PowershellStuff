@@ -82,3 +82,8 @@ $Secure_String_Pwd = ConvertTo-SecureString "PASSWORD" -AsPlainText -Force
 New-LocalUser "USERNAME" -Password $Secure_String_Pwd -Description "new user description" -AccountNeverExpires -PasswordNeverExpires -UserMayNotChangePassword
 ```
 
+## restart to BIOS
+restart pc to bios with 5 second wait before restarting
+```
+shoutdown /r /fw /t 5
+```
